@@ -9,9 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "Blue-900" : "hsl(230, 35%, 7%)",
+        "Blue-300" : "hsl(231, 77%, 90%)"
       },
+      fontFamily : {
+        Bellefair : ["Bellefair"],
+        "Barlow-Condensed" : ["Barlow-Condensed"],
+        Barlow : ["Barlow"]
+      }
     },
   },
   plugins: [],
