@@ -12,22 +12,23 @@ export default function Home() {
                 </div>
                 <div className="w-[560px] h-[1px] bg-white bg-opacity-25 ml-16 -mr-8 z-10"></div>
                 <div className="bg-transparent/[0.05]">
-                  <div className="text-white h-24 min-w-[664px] w-[736px] flex items-center justify-end px-16 headerb">
-                    <Link className="mr-12 flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 hover:duration-500" href="/">
+                  <div className="text-white h-24  w-[736px] flex items-center justify-end px-16 headerb">
+                    <Link className="mr-12 flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 duration-700" href="/">
                       <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">00</span> <span className="font-Barlow-Condensed tracking-[2px]">HOME</span>
                     </Link>
-                    <Link className="mr-12 flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 hover:duration-500" href="/destination">
+                    <Link className="mr-12 flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 duration-700" href="/destination">
                       <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">01</span> <span className="font-Barlow-Condensed tracking-[2px]">DESTINATION</span>
                     </Link>
-                    <Link className="mr-12 flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 hover:duration-500" href="/crew">
+                    <Link className="mr-12 flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 duration-700" href="/crew">
                       <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">02</span> <span className="font-Barlow-Condensed tracking-[2px]">CREW</span>
                     </Link>
-                    <Link className="flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 hover:duration-500" href="/technology">
+                    <Link className="flex items-center h-full border-b-[3px] border-b-transparent  hover:border-b-white/45 duration-700" href="/technology">
                       <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">03</span> <span className="font-Barlow-Condensed tracking-[2px]">TECHNOLOGY</span>
                     </Link>
                   </div>
                 </div>
               </div>
+
           </div>
       </div>
     </>
