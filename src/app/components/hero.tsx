@@ -2,7 +2,7 @@
 
 export default function Hero(){
     return (
-        <div className="absolute top-[40%] grid grid-cols-2   items-center mx-40 my-32 ">
+        <div className="absolute top-[40%] grid grid-cols-2 items-center mx-40 my-32 ">
             <div>
                 <h2 className="text-Blue-300 font-Barlow-Condensed text-[28px] leading-[.336] tracking-[4px]">SO, YOU WANT TO TRAVEL TO</h2>
                 <h2 className="font-Bellefair text-[144px] leading-normal text-white my-6">SPACE</h2>

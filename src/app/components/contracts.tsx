@@ -2,7 +2,7 @@
 
 interface Destination {
     name : string,
-    image : {
+    images : {
         png : string,
         webp : string
     }
