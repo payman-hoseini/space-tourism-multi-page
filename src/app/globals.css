@@ -31,3 +31,9 @@
 .headerb {
     backdrop-filter: blur(80px);
 }
+.destinationBackground {
+    background: url(./../../public/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}
