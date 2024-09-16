@@ -32,10 +32,10 @@ export default function DesHero({ File } : {File : PageFile}){
                 </div>
                 <div>
                     <div className="flex">
-                        <button ref={btnMoonRef} onClick={destSelector} className="text-white font-Barlow-Condensed tracking-[2px] pb-2 mr-8 border-b-4 border-b-transparent hover:border-b-white/45 duration-700">MOON</button>
-                        <button ref={btnMarsRef} onClick={destSelector} className="text-white font-Barlow-Condensed tracking-[2px] pb-2 mr-8 border-b-4 border-b-transparent hover:border-b-white/45 duration-700">MARS</button>
-                        <button ref={btnEurRef} onClick={destSelector} className="text-white font-Barlow-Condensed tracking-[2px] pb-2 mr-8 border-b-4 border-b-transparent hover:border-b-white/45 duration-700">EUROPA</button>
-                        <button ref={btnTitanRef} onClick={destSelector} className="text-white font-Barlow-Condensed tracking-[2px] pb-2 border-b-4 border-b-transparent hover:border-b-white/45 duration-700">TITAN</button>
+                        <button ref={btnMoonRef} onClick={destSelector} className={`text-white font-Barlow-Condensed tracking-[2px] pb-2 mr-8 border-b-4 border-b-transparent hover:border-b-white/45 duration-700 ${desValue.name == 'Moon' ? "border-b-white" : ""}`}>MOON</button>
+                        <button ref={btnMarsRef} onClick={destSelector} className={`text-white font-Barlow-Condensed tracking-[2px] pb-2 mr-8 border-b-4 border-b-transparent hover:border-b-white/45 duration-700 ${desValue.name == 'Mars' ? "border-b-white" : ""}`}>MARS</button>
+                        <button ref={btnEurRef} onClick={destSelector} className={`text-white font-Barlow-Condensed tracking-[2px] pb-2 mr-8 border-b-4 border-b-transparent hover:border-b-white/45 duration-700 ${desValue.name == 'Europa' ? "border-b-white" : ""}`}>EUROPA</button>
+                        <button ref={btnTitanRef} onClick={destSelector} className={`text-white font-Barlow-Condensed tracking-[2px] pb-2 border-b-4 border-b-transparent hover:border-b-white/45 duration-700 ${desValue.name == 'Titan' ? "border-b-white" : ""}`}>TITAN</button>
                     </div>
                     <div>
                         <div className="py-10 border-b border-b-white/30 w-[80%]">
