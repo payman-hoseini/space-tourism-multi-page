@@ -37,3 +37,9 @@
     background-position: center;
     background-size:cover
 }
+.crewBackground {
+    background: url(./../../public/assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}

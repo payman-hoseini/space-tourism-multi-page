@@ -1,6 +1,6 @@
 'use client'
 import {  useRef, useState } from "react";
-import { PageFile } from "./contracts";
+import { PageFile } from "./shared/contracts";
 
 
 export default function DesHero({ File } : {File : PageFile}){
@@ -28,7 +28,7 @@ export default function DesHero({ File } : {File : PageFile}){
         <div className="mx-40 mb-12 h-[70%]">
             <div className="grid grid-cols-2 gap-x-8 h-full  place-content-center">
                 <div>
-                    <img src={desValue.images.png} alt="moon"/>
+                    <img src={desValue.images.png} alt={desValue.name}/>
                 </div>
                 <div>
                     <div className="flex">

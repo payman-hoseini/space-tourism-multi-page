@@ -13,7 +13,7 @@ interface Destination {
 
 interface Crew {
     name : string,
-    image : {
+    images : {
         png : string,
         webp : string
     },
@@ -23,7 +23,7 @@ interface Crew {
 
 interface Technology {
     name : string,
-    image : {
+    images : {
         portrait : string,
         landscape : string
     }

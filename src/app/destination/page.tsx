@@ -1,17 +1,16 @@
 
 import Header from "../components/header";
 import { promises as fs } from 'fs';
-import { PageFile } from "../components/contracts";
+import { PageFile } from "../components/shared/contracts";
 import DesHero from "../components/desHero";
 
 export default async function Destination() {
     const file = await fs.readFile(process.cwd() + '/src/data.json' , 'utf8');
     const File : PageFile = JSON.parse(file)
-    // console.log(File.destinations)
   return (
     <>
       <div className="h-screen bg-Blue-900">
-        <div className="destinationBackground h-screen mx-auto max-w-[1440px] relative ">
+        <div className="destinationBackground h-screen mx-auto max-w-[1440px]">
             <Header />
             <div className="mx-40 mt-12">
                 <div className="flex items-center">
