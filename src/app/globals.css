@@ -43,3 +43,9 @@
     background-position: center;
     background-size:cover
 }
+.techBackground {
+    background: url(./../../public/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}

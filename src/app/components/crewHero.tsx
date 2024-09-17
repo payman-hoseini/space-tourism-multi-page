@@ -25,7 +25,7 @@ export default function CrewHero({ File } : {File : PageFile}){
         }
     }
     return (
-        <div className="mx-40 mt-6 grid grid-cols-2 place-items-center gap-x-8">
+        <div className="mx-40 mt-6 h-[65%] mb-12 grid grid-cols-2 place-items-center gap-x-8">
             <div className="flex-col flex justify-between  h-full">
                 <div className="h-full flex flex-col justify-center">
                     <h2 className="font-Bellefair text-[32px] text-white/50">{crewValue.role.toUpperCase()}</h2>
@@ -33,14 +33,14 @@ export default function CrewHero({ File } : {File : PageFile}){
                     <p className="text-Blue-300 font-Barlow text-balance leading-[1.8] text-lg">{crewValue.bio}</p>
                 </div>
                 <div className="mt-10 flex space-x-10">
-                    <button ref={btnDoug} onClick={crewSelector} className="w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full"></button>
-                    <button ref={btnMark} onClick={crewSelector} className="w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full"></button>
-                    <button ref={btnVic} onClick={crewSelector} className="w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full"></button>
-                    <button ref={btnAno} onClick={crewSelector} className="w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full"></button>
+                    <button ref={btnDoug} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Douglas Hurley" ? "bg-white/100" : ""}`}></button>
+                    <button ref={btnMark} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Mark Shuttleworth" ? "bg-white/100" : ""}`}></button>
+                    <button ref={btnVic} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Victor Glover" ? "bg-white/100" : ""}`}></button>
+                    <button ref={btnAno} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Anousheh Ansari" ? "bg-white/100" : ""}`}></button>
                 </div>
             </div>
             <div>
-                <img src={crewValue.images.png} alt={crewValue.name} />
+                <img src={crewValue.images.png} alt={crewValue.name}/>
             </div>
         </div>
     )
