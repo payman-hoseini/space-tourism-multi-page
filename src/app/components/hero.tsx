@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TransitionLink from "./shared/transitionLink";
 
 
 export default function Hero(){
@@ -11,9 +12,9 @@ export default function Hero(){
                     kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
             </div>
             <div className="text-right">
-                <Link href="/destination" className="inline-block align-middle px-20 py-20 text-Blue-900  rounded-full font-Bellefair text-[32px] duration-500 hover:bg-white/10 hover:text-Blue-900/50">
+                <TransitionLink href="/destination" className="inline-block align-middle px-20 py-20 text-Blue-900  rounded-full font-Bellefair text-[32px] duration-500 hover:bg-white/10 hover:text-Blue-900/50">
                     <p className="w-[272px] h-[272px] bg-white rounded-full grid text-center items-center">EXPLORE</p>
-                </Link>
+                </TransitionLink>
             </div>
         </div>
     )
