@@ -35,19 +35,51 @@
     src: url(./../../public//fonts/Barlow/Barlow-Regular.ttf);
 }
 .homeBackground {
-    background: url(./../../public/assets/home/background-home-desktop.jpg);
+    background: url(./../../public/assets/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover
+}
+@media (min-width: 768px) {
+    .homeBackground {
+        background: url(./../../public/assets/home/background-home-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover
+    }
+}
+@media (min-width: 1024px) {
+    .homeBackground {
+        background: url(./../../public/assets/home/background-home-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover
+    }
 }
 .headerb {
     backdrop-filter: blur(80px);
 }
 .destinationBackground {
-    background: url(./../../public/assets/destination/background-destination-desktop.jpg);
+    background: url(./../../public/assets/destination/background-destination-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover
+}
+@media (min-width: 768px) {
+    .destinationBackground {
+        background: url(./../../public/assets/destination/background-destination-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover
+    }
+}
+@media (min-width: 1024px) {
+    .destinationBackground {
+        background: url(./../../public/assets/destination/background-destination-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover
+    }
 }
 .crewBackground {
     background: url(./../../public/assets/crew/background-crew-desktop.jpg);
