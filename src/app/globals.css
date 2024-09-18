@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.transitionPage {
     transition-property: opacity , transform , filter;
-    transition-timing-function: ease-in-out;
+    transition-timing-function:linear;
     transition-duration: 500ms;
 }
 
 .page-transition {
-    opacity: .8;
-    transform: translateY(40px) ;
-    filter: blur(12px);
+    opacity: .2;
+    /* transform: translateY(40px) ; */
+    /* filter: blur(12px); */
 }
 
 @font-face {

@@ -33,10 +33,10 @@ export default function CrewHero({ File } : {File : PageFile}){
                     <p className="text-Blue-300 font-Barlow text-balance leading-[1.8] text-lg">{crewValue.bio}</p>
                 </div>
                 <div className="mt-10 flex space-x-10">
-                    <button ref={btnDoug} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Douglas Hurley" ? "bg-white/100" : ""}`}></button>
-                    <button ref={btnMark} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Mark Shuttleworth" ? "bg-white/100" : ""}`}></button>
-                    <button ref={btnVic} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Victor Glover" ? "bg-white/100" : ""}`}></button>
-                    <button ref={btnAno} onClick={crewSelector} className={`w-[15px] h-[15px] bg-white/50 hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Anousheh Ansari" ? "bg-white/100" : ""}`}></button>
+                    <button ref={btnDoug} onClick={crewSelector} className={`w-[15px] h-[15px]  hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Douglas Hurley" ? "bg-white/100" : "bg-white/50"}`}></button>
+                    <button ref={btnMark} onClick={crewSelector} className={`w-[15px] h-[15px]  hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Mark Shuttleworth" ? "bg-white/100" : "bg-white/50"}`}></button>
+                    <button ref={btnVic} onClick={crewSelector} className={`w-[15px] h-[15px]  hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Victor Glover" ? "bg-white/100" : "bg-white/50"}`}></button>
+                    <button ref={btnAno} onClick={crewSelector} className={`w-[15px] h-[15px] hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Anousheh Ansari" ? "bg-white/100" : "bg-white/50"}`}></button>
                 </div>
             </div>
             <div>

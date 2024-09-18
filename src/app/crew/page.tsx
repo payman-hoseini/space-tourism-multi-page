@@ -9,7 +9,7 @@ export default async function Crew(){
     return (
         <>
             <div className="h-screen bg-Blue-900">
-                <div className="crewBackground h-screen mx-auto max-w-[1440px] tr">
+                <div className="crewBackground h-screen mx-auto max-w-[1440px] transitionPage">
                     <Header />
                     <div className="mx-40 mt-12">
                         <div className="flex items-center">
@@ -18,9 +18,9 @@ export default async function Crew(){
                         </div>
                     </div>
                     <CrewHero File={File} />
+                </div>
             </div>
-        </div>
-    </>
+        </>
     )
     
 }

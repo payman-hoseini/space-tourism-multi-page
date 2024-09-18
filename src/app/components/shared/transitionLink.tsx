@@ -18,7 +18,7 @@ export default function TransitionLink ({children , ...props} : Props) {
     async function handleTransition (e : React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
         e.preventDefault();
 
-        const body = document.querySelector("body");
+        const body = document.querySelector(".transitionPage");
         body?.classList.add("page-transition");
         await sleep(500)
         router.push(props.href)

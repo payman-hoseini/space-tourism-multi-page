@@ -23,9 +23,9 @@ export default function TechHero({ File } : {File : PageFile}){
         <div className="mt-6 ml-40 h-[65%] grid grid-cols-2  gap-x-8">
             <div className="flex items-center">
                     <div className="space-y-10 mr-16">
-                        <button ref={btnLaunch} onClick={techSelector} className={`w-[80px] h-[80px] rounded-full text-white font-Bellefair text-[32px] border border-white/20 duration-700 hover:border-white ${techValue.name == "Launch vehicle" ? "bg-white text-black" : ""}`}>1</button>
-                        <button ref={btnPort} onClick={techSelector} className={`w-[80px] h-[80px] rounded-full text-white font-Bellefair text-[32px] border border-white/20 duration-700 hover:border-white ${techValue.name == "Spaceport" ? "bg-white text-black" : ""}`}>2</button>
-                        <button ref={btnCapsule} onClick={techSelector} className={`w-[80px] h-[80px] rounded-full text-white font-Bellefair text-[32px] border border-white/20 duration-700 hover:border-white ${techValue.name == "Space capsule" ? "bg-white text-black" : ""}`}>3</button>
+                        <button ref={btnLaunch} onClick={techSelector} className={`w-[80px] h-[80px] rounded-full  font-Bellefair text-[32px] border border-white/20 duration-700 hover:border-white ${techValue.name == "Launch vehicle" ? "bg-white text-Blue-900" : "text-white"}`}>1</button>
+                        <button ref={btnPort} onClick={techSelector} className={`w-[80px] h-[80px] rounded-full  font-Bellefair text-[32px] border border-white/20 duration-700 hover:border-white ${techValue.name == "Spaceport" ? "bg-white text-Blue-900" : "text-white"}`}>2</button>
+                        <button ref={btnCapsule} onClick={techSelector} className={`w-[80px] h-[80px] rounded-full  font-Bellefair text-[32px] border border-white/20 duration-700 hover:border-white ${techValue.name == "Space capsule" ? "bg-white text-Blue-900" : "text-white"}`}>3</button>
                 </div>
                 <div>
                     <h2 className="font-Bellefair text-[32px] text-white/50">THE TERMINOLOGY...</h2>
