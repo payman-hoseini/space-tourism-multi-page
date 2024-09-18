@@ -25,12 +25,12 @@ export default function CrewHero({ File } : {File : PageFile}){
         }
     }
     return (
-        <div className="mx-40 mt-6 h-[65%] mb-12 grid grid-cols-2 place-items-center gap-x-8">
-            <div className="flex-col flex justify-between  h-full">
-                <div className="h-full flex flex-col justify-center">
+        <div className="mx-40 mt-6 h-[65%] mb-12 grid lg:grid-cols-2 place-items-end gap-x-8">
+            <div className="flex-col justify-between md:items-center lg:items-start flex h-full">
+                <div className="h-full flex flex-col justify-center text-center lg:text-start">
                     <h2 className="font-Bellefair text-[32px] text-white/50">{crewValue.role.toUpperCase()}</h2>
-                    <h2 className="mt-4 mb-6 font-Bellefair text-white text-[56px]">{crewValue.name.toUpperCase()}</h2>
-                    <p className="text-Blue-300 font-Barlow text-balance leading-[1.8] text-lg">{crewValue.bio}</p>
+                    <h2 className="mt-4 mb-6 font-Bellefair text-white lg:text-[56px] md:text-[40px]">{crewValue.name.toUpperCase()}</h2>
+                    <p className="text-Blue-300 font-Barlow text-balance leading-[1.8] lg:text-lg md:text-base">{crewValue.bio}</p>
                 </div>
                 <div className="mt-10 flex space-x-10">
                     <button ref={btnDoug} onClick={crewSelector} className={`w-[15px] h-[15px]  hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Douglas Hurley" ? "bg-white/100" : "bg-white/50"}`}></button>
@@ -39,8 +39,8 @@ export default function CrewHero({ File } : {File : PageFile}){
                     <button ref={btnAno} onClick={crewSelector} className={`w-[15px] h-[15px] hover:bg-white/80 duration-500 rounded-full ${crewValue.name == "Anousheh Ansari" ? "bg-white/100" : "bg-white/50"}`}></button>
                 </div>
             </div>
-            <div>
-                <img src={crewValue.images.png} alt={crewValue.name}/>
+            <div className="md:mt-8 lg:mt-0">
+                <img src={crewValue.images.png} alt={crewValue.name} className="w-[95%]"/>
             </div>
         </div>
     )

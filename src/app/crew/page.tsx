@@ -11,7 +11,7 @@ export default async function Crew(){
             <div className="h-screen bg-Blue-900">
                 <div className="crewBackground h-screen mx-auto max-w-[1440px] transitionPage">
                     <Header />
-                    <div className="mx-40 mt-12">
+                    <div className="lg:mx-40 mx-10 mt-12">
                         <div className="flex items-center">
                             <span className="font-Barlow-Condensed text-white/20 font-bold text-[28px] tracking-[4.72px]">02</span>
                             <h2 className="font-Barlow-Condensed text-[28px] tracking-[4px] text-white ml-6">MEET YOUR CREW</h2>
