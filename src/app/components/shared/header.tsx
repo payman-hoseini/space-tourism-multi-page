@@ -55,13 +55,13 @@ export default function Header(){
                 </div>
             </div>
             <button onClick={showModalMenu} className="md:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fillRule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
             </button>
         </div>
         {show && <div ref={menuRef} className="fixed  top-0 left-0 h-screen w-full z-10 bg-transparent">
             <div className=" headerb w-2/3 h-full absolute right-0">
                 <button onClick={showModalMenu} className="absolute right-0 p-8">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fillRule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
                 </button>
                 <ul className="text-white mt-28 pl-8">
                   <li>
