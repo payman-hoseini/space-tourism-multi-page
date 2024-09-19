@@ -10,7 +10,7 @@ export default async function Destination() {
   return (
     <>
       <div className="h-screen bg-Blue-900">
-        <div className="destinationBackground h-[120vh] mx-auto max-w-[1440px] transitionPage">
+        <div className="destinationBackground h-[120vh] md:h-screen mx-auto max-w-[1440px] transitionPage">
             <Header />
             <div className="lg:mx-40 md:mx-10 lg:mt-12 md:mt-10 mt-6">
                 <div className="flex items-center md:justify-start justify-center">

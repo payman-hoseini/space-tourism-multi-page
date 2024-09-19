@@ -9,7 +9,7 @@ export default async function Crew(){
     return (
         <>
             <div className="h-screen bg-Blue-900">
-                <div className="crewBackground h-[130vh] mx-auto max-w-[1440px] transitionPage">
+                <div className="crewBackground h-[130vh] md:h-screen mx-auto max-w-[1440px] transitionPage">
                     <Header />
                     <div className="lg:mx-40 md:mx-10 mx-6 lg:mt-12 md:mt-10 mt-6">
                         <div className="flex items-center justify-center md:justify-start">
