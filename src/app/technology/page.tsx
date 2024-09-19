@@ -1,4 +1,4 @@
-import Header from "../components/header";
+import Header from "../components/shared/header";
 import { promises as fs } from 'fs';
 import { PageFile } from "../components/shared/contracts";
 import TechHero from "../components/techHero";

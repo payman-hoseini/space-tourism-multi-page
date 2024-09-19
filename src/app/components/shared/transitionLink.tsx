@@ -27,7 +27,7 @@ export default function TransitionLink ({children , ...props} : Props) {
         
     }
     return (
-        <Link onClick={handleTransition} href={props.href} className={`${props.href == pathName ? "border-b-white" : ""} ${props.className}`}>
+        <Link onClick={handleTransition} href={props.href} className={`${props.href == pathName ? "border-b-white border-r-white" : "border-r-transparent"} ${props.className}`}>
             {children}
         </Link>
     )
