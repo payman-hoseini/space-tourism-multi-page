@@ -65,28 +65,28 @@ export default function Header(){
                 </button>
                 <ul className="text-white mt-28 pl-8">
                   <li>
-                    <TransitionLink className="mb-8 border-r  hover:border-r-white/45 duration-700 flex items-center" href="/">
+                    <TransitionLink className="mb-8 border-r-4  hover:border-r-white/45 duration-700 flex items-center" href="/">
                       <>
                         <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">00</span> <span className="font-Barlow-Condensed tracking-[2px]">HOME</span>
                       </>
                     </TransitionLink>
                   </li>
                   <li>
-                    <TransitionLink className="mb-8 border-r  hover:border-r-white/45 duration-700 flex items-center" href="/destination">
+                    <TransitionLink className="mb-8 border-r-4  hover:border-r-white/45 duration-700 flex items-center" href="/destination">
                       <>
                         <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">01</span> <span className="font-Barlow-Condensed tracking-[2px]">DESTINATION</span>
                       </>
                     </TransitionLink>
                   </li>
                   <li>
-                    <TransitionLink className="mb-8 border-r  hover:border-r-white/45 duration-700 flex items-center" href="/crew">
+                    <TransitionLink className="mb-8 border-r-4  hover:border-r-white/45 duration-700 flex items-center" href="/crew">
                       <>
                         <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">02</span> <span className="font-Barlow-Condensed tracking-[2px]">CREW</span>
                       </>
                     </TransitionLink>
                   </li>
                   <li>
-                    <TransitionLink className="border-r  hover:border-r-white/45 duration-700 flex items-center" href="/technology">
+                    <TransitionLink className="border-r-4  hover:border-r-white/45 duration-700 flex items-center" href="/technology">
                       <>
                         <span className="font-Barlow-Condensed font-semibold tracking-[2.7px] mr-[7px]">03</span> <span className="font-Barlow-Condensed tracking-[2px]">TECHNOLOGY</span>
                       </>
