@@ -8,7 +8,7 @@ export default function DesHero({ File } : {File : PageFile}){
     const btnMarsRef = useRef(null)
     const btnEurRef = useRef(null)
     const btnTitanRef = useRef(null)
-    let [ desValue , setDesValue ] = useState(File.destinations[0])
+    const[ desValue , setDesValue ] = useState(File.destinations[0])
     function destSelector(e : React.MouseEvent<HTMLButtonElement, MouseEvent>){
         if(e.target == btnMoonRef.current){
             setDesValue(File.destinations[0])

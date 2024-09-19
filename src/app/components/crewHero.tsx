@@ -8,7 +8,7 @@ export default function CrewHero({ File } : {File : PageFile}){
     const btnMark = useRef(null)
     const btnVic = useRef(null)
     const btnAno = useRef(null)
-    let [ crewValue , setCrewValue ] = useState(File.crew[0])
+    const [ crewValue , setCrewValue ] = useState(File.crew[0])
 
     function crewSelector(e : React.MouseEvent<HTMLButtonElement, MouseEvent>){
         if(e.target == btnDoug.current){
