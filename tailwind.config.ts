@@ -16,6 +16,14 @@ const config: Config = {
         Bellefair : ["Bellefair"],
         "Barlow-Condensed" : ["Barlow-Condensed"],
         Barlow : ["Barlow"]
+      },
+      keyframes : {
+        smooth_appear : {
+          to  : { right : "0" }
+        }
+      },
+      animation : {
+        smooth : "smooth_appear 1s ease forwards"
       }
     },
   },

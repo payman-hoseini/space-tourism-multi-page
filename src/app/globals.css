@@ -125,3 +125,17 @@
         background-size:cover
     }
 }
+/* @keyframes smooth-appear {
+    to{
+      right: 0;
+    }
+} */
+
+/* .menu {
+    backdrop-filter: blur(80px);
+    width: 66.66%;
+    height: 100%;
+    position: fixed;
+    right: -100%;
+    animation: smooth-appear 1s ease forwards;
+} */
